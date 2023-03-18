@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_Calculadora"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_info"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="0dp"
+        android:textSize="19dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/txtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_num1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_num2"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalculo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btn_calculo"
+        android:textSize="21sp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
